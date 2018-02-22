@@ -20,11 +20,11 @@
             style="@style/textStyle1"
             android:layout_marginBottom="@dimen/dimen24"
             android:text="@string/update_how_you_learn_languages"
+            android:gravity="left"
             android:textSize="@dimen/size24" />
 
         <LinearLayout
             style="@style/layoutStyle"
-            android:gravity="center_horizontal"
             android:orientation="horizontal">
 
             <LinearLayout

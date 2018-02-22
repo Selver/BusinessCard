@@ -18,6 +18,7 @@
 
         <TextView
             style="@style/textStyle1"
+            android:gravity="left"
             android:layout_marginBottom="@dimen/dimen24"
             android:text="@string/update_how_you_learn_languages"
             android:textSize="@dimen/size24" />
