@@ -1,0 +1,62 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout style="@style/layoutStyle">
+
+        <ImageView style="@style/imageStyle1" />
+
+        <TextView
+            style="@style/textStyle1"
+            android:layout_marginTop="@dimen/dimen16"
+            android:text="@string/learneasy" />
+
+        <TextView
+            style="@style/textStyle1"
+            android:layout_marginBottom="@dimen/dimen8"
+            android:text="@string/language_center" />
+
+        <TextView
+            style="@style/textStyle1"
+            android:layout_marginBottom="@dimen/dimen24"
+            android:text="@string/update_how_you_learn_languages"
+            android:textSize="@dimen/size24" />
+
+        <LinearLayout
+            style="@style/layoutStyle"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                style="@style/layoutStyle"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="@dimen/dimen16">
+
+                <TextView
+                    style="@style/textStyle2"
+                    android:autoLink="map"
+                    android:drawableLeft="@drawable/address_icon"
+                    android:text="@string/oak_road_12_london_uk" />
+
+                <TextView
+                    style="@style/textStyle2"
+                    android:autoLink="phone"
+                    android:drawableLeft="@drawable/phone_icon"
+                    android:text="@string/_44_20_7645_0478" />
+
+                <TextView
+                    style="@style/textStyle2"
+                    android:autoLink="web"
+                    android:drawableLeft="@drawable/web_icon"
+                    android:text="@string/www_learneasy_com" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/join_us_now"
+                style="@style/imageStyle2" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

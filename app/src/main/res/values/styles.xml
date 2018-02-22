@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="layoutStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="imageStyle1">
+        <item name="android:layout_height">@dimen/dimen300</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:src">@drawable/languages_background</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_marginLeft">@dimen/dimen8</item>
+        <item name="android:layout_marginRight">@dimen/dimen8</item>
+        <item name="android:layout_marginTop">@dimen/dimen8</item>
+    </style>
+
+    <style name="textStyle1">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/size36</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginLeft">@dimen/dimen16</item>
+        <item name="android:layout_marginRight">@dimen/dimen16</item>
+    </style>
+
+    <style name="textStyle2">
+        <item name="android:layout_height">@dimen/dimen0</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">@dimen/dimen16</item>
+        <item name="android:layout_marginBottom">@dimen/dimen8</item>
+        <item name="android:drawablePadding">@dimen/dimen8</item>
+        <item name="android:textSize">@dimen/size18</item>
+    </style>
+
+    <style name="imageStyle2">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:src">@drawable/join_us_now</item>
+        <item name="android:layout_marginLeft">@dimen/dimen36</item>
+        <item name="android:layout_marginRight">@dimen/dimen34</item>
+    </style>
+
+</resources>
+
