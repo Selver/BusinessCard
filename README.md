@@ -1,2 +1,2 @@
 # BusinessCard
-<img src="https://user-images.githubusercontent.com/28065277/36567301-4701efd6-1826-11e8-87a9-936c2acf670f.png" width="300">
+<img src="https://user-images.githubusercontent.com/28065277/36568262-9bfda5fe-1829-11e8-9a58-9e4ee8411a6e.png" width="300">
