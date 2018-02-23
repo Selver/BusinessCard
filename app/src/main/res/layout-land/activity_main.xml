@@ -42,7 +42,7 @@
                     style="@style/textStyle2"
                     android:autoLink="phone"
                     android:drawableLeft="@drawable/phone_icon"
-                    android:text="@string/_44_20_7645_0478" />
+                    android:text="@string/phone_number" />
 
                 <TextView
                     style="@style/textStyle2"
